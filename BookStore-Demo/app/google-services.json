@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "876513193970",
+    "firebase_url": "https://book-store-56db2.firebaseio.com",
+    "project_id": "book-store-56db2",
+    "storage_bucket": "book-store-56db2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876513193970:android:9ed9145286f166b416856b",
+        "android_client_info": {
+          "package_name": "com.bookstore.mahir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876513193970-m8bfcsb2mglqtns71d5stus1ekadtccn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookstore.mahir",
+            "certificate_hash": "227b4d215306ee4ac7b0d5d744d15accb9ea2cb4"
+          }
+        },
+        {
+          "client_id": "876513193970-3aceovblemoperqvf6b3d3n7n27uu92i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCb0AtC29I-Nz6A3ty5F-twYDrdDP5WN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876513193970-3aceovblemoperqvf6b3d3n7n27uu92i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

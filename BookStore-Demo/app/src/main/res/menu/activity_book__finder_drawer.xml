@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/search"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Search for Books" />
+        <item
+            android:id="@+id/postandadd"
+            android:icon="@drawable/postandadd"
+            android:title="Post and Add" />
+
+        <item
+            android:id="@+id/readPdf"
+            android:icon="@drawable/my_post"
+            android:title="Read PDF" />
+
+        <item
+            android:id="@+id/mypost"
+            android:icon="@drawable/my_post"
+            android:title="My Post" />
+
+        <item
+            android:id="@+id/favorites"
+            android:icon="@drawable/love"
+            android:title="My Favorites" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/aboutapplication"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log out" />
+        </menu>
+
+    </item>
+
+</menu>

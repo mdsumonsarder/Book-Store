@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bookstore.mahir.activity.SignUpActivity">
+
+    <EditText
+        android:id="@+id/etemail"
+        android:drawableStart="@mipmap/email"
+        android:layout_width="335dp"
+        android:background="#254"
+        android:textColorHint="#000"
+        android:textColor="#FAFAFA"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="82dp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
+        android:background="#254"
+        android:drawableStart="@mipmap/lock"
+        android:textColorHint="#000"
+        android:textColor="#FAFAFA"
+        android:password="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/etemail"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.515" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="331dp"
+        android:layout_height="57dp"
+        android:background="#006064"
+        android:textColor="#FAFAFA"
+        android:text="Sign Up"
+        android:layout_marginTop="19dp"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.513" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="335dp"
+        android:layout_height="53dp"
+        android:background="#252"
+        android:textColor="#FAFA"
+        android:text="If Registerd ? Log In"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="77dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnreg"
+        app:layout_constraintHorizontal_bias="0.515" />
+
+    <TextView
+        android:id="@+id/tvmessage"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:textColor="#FA01"
+        android:layout_marginTop="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnreg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
